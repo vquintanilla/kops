@@ -125,6 +125,7 @@ metadata:
   name: system:pod-nanny
   namespace: kube-system
   labels:
+    k8s-addon: monitoring-standalone.addons.k8s.io
     kubernetes.io/cluster-service: "true"
     addonmanager.kubernetes.io/mode: Reconcile
 rules:
